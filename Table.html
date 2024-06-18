@@ -7,16 +7,32 @@
   <link rel="stylesheet" href="Assets/Style/Table.css">
   <style> 
     body {
-      background-color: grey;
+      background: grey;
     }
     table {
       width: 800px;
+      margin: auto;
+      table-layout: fixed;
+      text-align: center;
+      margin-top: 50px;
+      font-family: sans-serif;
+      color: black;
     }
-  </style>
+    table, th, td {
+      border: 2px solid blue;
+      border-collapse: collapse;
+      padding: 20px;
+      font-size: 20px;
+    }  
+    th {
+      padding: 30px;
+      background-color: purple;
+    }
+    </style>
 </head>
 <body>
   <div class="container">
-    <h2 style='color: brown;'>Names and Email Addresses of Teddy's Friends</h2>
+    <h2 style='color: darkblue; text-align: center;'>Names and Email Addresses of Teddy's Friends</h2>
 
     <table>
         <tr>
@@ -52,7 +68,7 @@
         <tr>
           <td>005</td>
           <td>Mirembe Ann</td>
-          <td> mirembea@gmail.com</td>
+          <td>mirembea@gmail.com</td>
         </tr>
     </table>
   </div>
